@@ -1,6 +1,6 @@
 # 0001. Registrar decisões de arquitetura com ADRs
 
-🇺🇸 [English version](0001-registrar-decisoes-de-arquitetura.en.md)
+🇺🇸 [English version](0001-record-architecture-decisions.md)
 
 - **Status:** Aceito
 - **Data:** 2026-10-14
@@ -33,7 +33,7 @@ curta, versionada e próxima do código.
 ## Decisão
 
 > Escolhemos **ADRs em Markdown dentro do repositório**, usando o template em
-> [`templates/adr-template.md`](../templates/adr-template.md).
+> [`templates/adr-template.pt-BR.md`](../templates/adr-template.pt-BR.md).
 
 É a opção com menor atrito (fator 1) e a única que atende ao fator 2 sem esforço extra:
 o ADR passa pelo mesmo fluxo de revisão do código. O template mistura a estrutura
@@ -66,6 +66,7 @@ enxuta de Nygard (contexto, decisão, consequências) com os campos explícitos 
 - Numeração sequencial com 4 dígitos: `NNNN-titulo-em-kebab-case.md`
 - Um ADR aceito é imutável. Mudou de ideia? Novo ADR com status "Substitui NNNN"
 - Correções de digitação e links são permitidas
+- O arquivo em inglês é a fonte; o arquivo `.pt-BR.md` é a tradução
 
 ## Como validar
 

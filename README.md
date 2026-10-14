@@ -17,7 +17,7 @@ The goal is to practice the kind of technical writing expected at Staff level: e
 | [`rfcs/`](rfcs/) | Full RFCs with alternatives, risks and rollout plan |
 | [`notes/`](notes/) | Weekly study notes behind the decisions (Portuguese only) |
 
-Documents are written in Portuguese first; English versions sit next to them with the `.en.md` suffix.
+Documents are written in English; Portuguese translations sit next to them with the `.pt-BR.md` suffix.
 
 ## ADR vs RFC
 
@@ -36,7 +36,7 @@ An accepted RFC usually produces one or more ADRs.
 
 | # | Title | Status |
 | --- | --- | --- |
-| [0001](decisions/0001-registrar-decisoes-de-arquitetura.en.md) | Record architecture decisions with ADRs | Accepted |
+| [0001](decisions/0001-record-architecture-decisions.md) | Record architecture decisions with ADRs | Accepted |
 
 ### RFCs
 

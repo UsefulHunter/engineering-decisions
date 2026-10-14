@@ -1,74 +1,76 @@
-# RFC NNNN: Título
+# RFC NNNN: Title
+
+🇧🇷 [Versão em português](rfc-template.pt-BR.md)
 
 | | |
 | --- | --- |
-| **Autor(es)** | |
-| **Status** | Rascunho \| Em revisão \| Aceito \| Rejeitado \| Implementado |
-| **Criado em** | AAAA-MM-DD |
-| **Revisores** | |
-| **ADRs gerados** | |
+| **Author(s)** | |
+| **Status** | Draft \| In review \| Accepted \| Rejected \| Implemented |
+| **Created** | YYYY-MM-DD |
+| **Reviewers** | |
+| **Resulting ADRs** | |
 
-## 1. Resumo
+## 1. Summary
 
-Um parágrafo. Se alguém ler só isto, deve entender o que está sendo proposto e por quê.
+One paragraph. Someone who reads only this should understand what is proposed and why.
 
-## 2. Contexto e problema
+## 2. Context and problem
 
-- Como o sistema funciona hoje
-- O que está doendo (com números sempre que possível)
-- Por que resolver agora
+- How the system works today
+- What hurts (with numbers whenever possible)
+- Why solve it now
 
-## 3. Objetivos e não-objetivos
+## 3. Goals and non-goals
 
-### Objetivos
+### Goals
 
-- Mensuráveis: "LCP p75 abaixo de 2,5 s", não "ficar mais rápido"
+- Measurable: "p75 LCP below 2.5 s", not "make it faster"
 
-### Não-objetivos
+### Non-goals
 
-- O que fica explicitamente fora do escopo (e por quê)
+- What is explicitly out of scope (and why)
 
-## 4. Proposta
+## 4. Proposal
 
-Visão geral da solução. Diagramas são bem-vindos.
+High-level view of the solution. Diagrams are welcome.
 
-### 4.1 Detalhes de design
+### 4.1 Design details
 
-APIs, fluxo de dados, mudanças de infraestrutura, contratos entre times.
+APIs, data flow, infrastructure changes, contracts between teams.
 
-### 4.2 Impacto em outras áreas
+### 4.2 Impact on other areas
 
-Segurança, acessibilidade, SEO, observabilidade, custo, DX.
+Security, accessibility, SEO, observability, cost, DX.
 
-## 5. Alternativas consideradas
+## 5. Alternatives considered
 
-| Alternativa | Prós | Contras | Por que não |
+| Alternative | Pros | Cons | Why not |
 | --- | --- | --- | --- |
 | A | | | |
 | B | | | |
-| Não fazer nada | | | |
+| Do nothing | | | |
 
-## 6. Riscos
+## 6. Risks
 
-| Risco | Probabilidade | Impacto | Mitigação |
+| Risk | Likelihood | Impact | Mitigation |
 | --- | --- | --- | --- |
 | | | | |
 
-## 7. Plano de rollout
+## 7. Rollout plan
 
-1. Fase 0: preparação (feature flag, métricas de base)
-2. Fase 1: % pequeno de tráfego / um time piloto
-3. Fase 2: expansão gradual com critérios de avanço
-4. Fase 3: remoção do caminho antigo
+1. Phase 0: preparation (feature flag, baseline metrics)
+2. Phase 1: small % of traffic / one pilot team
+3. Phase 2: gradual expansion with advancement criteria
+4. Phase 3: removal of the old path
 
-**Critérios de rollback:** quais métricas, com quais limites, disparam a volta.
+**Rollback criteria:** which metrics, at which thresholds, trigger a rollback.
 
-## 8. Métricas de sucesso
+## 8. Success metrics
 
-Como saber, depois de N semanas, que deu certo.
+How to tell, after N weeks, that it worked.
 
-## 9. Questões em aberto
+## 9. Open questions
 
-- Pontos que precisam de input dos revisores
+- Points that need input from reviewers
 
-## 10. Referências
+## 10. References

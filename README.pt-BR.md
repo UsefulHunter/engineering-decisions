@@ -12,12 +12,12 @@ O objetivo é praticar a escrita técnica de quem atua como Staff: explicar o co
 
 | Pasta | Conteúdo |
 | --- | --- |
-| [`templates/`](templates/) | Templates de ADR e RFC prontos para copiar |
+| [`templates/`](templates/) | Templates de ADR e RFC prontos para copiar ([ADR](templates/adr-template.pt-BR.md), [RFC](templates/rfc-template.pt-BR.md)) |
 | [`decisions/`](decisions/) | ADRs numerados (`NNNN-titulo-curto.md`) |
-| [`rfcs/`](rfcs/) | RFCs completos, com alternativas, riscos e plano de rollout |
+| [`rfcs/`](rfcs/README.pt-BR.md) | RFCs completos, com alternativas, riscos e plano de rollout |
 | [`notes/`](notes/) | Notas de estudo semanais que embasam as decisões |
 
-Os documentos são escritos primeiro em português; as versões em inglês ficam ao lado, com o sufixo `.en.md`.
+Os documentos são escritos em inglês; as traduções em português ficam ao lado, com o sufixo `.pt-BR.md`.
 
 ## ADR vs RFC
 
@@ -36,7 +36,7 @@ Um RFC aceito normalmente gera um ou mais ADRs.
 
 | # | Título | Status |
 | --- | --- | --- |
-| [0001](decisions/0001-registrar-decisoes-de-arquitetura.md) | Registrar decisões de arquitetura com ADRs | Aceito |
+| [0001](decisions/0001-record-architecture-decisions.pt-BR.md) | Registrar decisões de arquitetura com ADRs | Aceito |
 
 ### RFCs
 

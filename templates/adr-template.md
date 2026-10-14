@@ -1,67 +1,69 @@
-# NNNN. Título curto no imperativo
+# NNNN. Short title in the imperative
 
-- **Status:** Proposto | Aceito | Rejeitado | Obsoleto | Substituído por [NNNN](NNNN-titulo.md)
-- **Data:** AAAA-MM-DD
-- **Decisores:** quem participou da decisão
-- **Consultados:** quem deu opinião (opcional)
+🇧🇷 [Versão em português](adr-template.pt-BR.md)
 
-## Contexto
+- **Status:** Proposed | Accepted | Rejected | Deprecated | Superseded by [NNNN](NNNN-title.md)
+- **Date:** YYYY-MM-DD
+- **Deciders:** who took part in the decision
+- **Consulted:** who gave input (optional)
 
-Qual é o problema ou a força que obriga a decidir agora? Descreva fatos, restrições
-(prazo, time, custo, legado) e o que acontece se nada for feito. Sem opinião ainda.
+## Context
 
-## Fatores de decisão
+What problem or force requires a decision now? Describe facts, constraints
+(deadline, team, cost, legacy) and what happens if nothing is done. No opinions yet.
 
-Os critérios usados para comparar as opções, em ordem de peso.
+## Decision drivers
 
-- Critério 1 (ex.: tempo até produção)
-- Critério 2 (ex.: custo operacional)
-- Critério 3 (ex.: curva de aprendizado do time)
+The criteria used to compare the options, ordered by weight.
 
-## Opções consideradas
+- Driver 1 (e.g. time to production)
+- Driver 2 (e.g. operating cost)
+- Driver 3 (e.g. team learning curve)
 
-1. **Opção A**
-2. **Opção B**
-3. **Não fazer nada** (sempre vale listar)
+## Considered options
 
-## Decisão
+1. **Option A**
+2. **Option B**
+3. **Do nothing** (always worth listing)
 
-> Escolhemos **Opção X** porque ...
+## Decision
 
-Uma frase direta, depois o raciocínio ligado aos fatores de decisão.
+> We chose **Option X** because ...
 
-## Consequências
+One direct sentence, then the reasoning tied to the decision drivers.
 
-### Positivas
+## Consequences
 
-- ...
-
-### Negativas / trade-offs aceitos
+### Positive
 
 - ...
 
-### Riscos e mitigação
+### Negative / accepted trade-offs
 
-| Risco | Probabilidade | Impacto | Mitigação |
+- ...
+
+### Risks and mitigation
+
+| Risk | Likelihood | Impact | Mitigation |
 | --- | --- | --- | --- |
-| ... | Baixa/Média/Alta | Baixo/Médio/Alto | ... |
+| ... | Low/Medium/High | Low/Medium/High | ... |
 
-## Prós e contras das opções
+## Pros and cons of the options
 
-### Opção A
-
-- ✅ ...
-- ❌ ...
-
-### Opção B
+### Option A
 
 - ✅ ...
 - ❌ ...
 
-## Como validar
+### Option B
 
-Qual sinal (métrica, prazo, evento) mostra que a decisão foi certa ou precisa ser revista?
+- ✅ ...
+- ❌ ...
+
+## How to validate
+
+Which signal (metric, deadline, event) shows the decision was right or needs revisiting?
 
 ## Links
 
-- RFC relacionado, issues, benchmarks, documentação
+- Related RFC, issues, benchmarks, documentation

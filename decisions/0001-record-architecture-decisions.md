@@ -1,6 +1,6 @@
 # 0001. Record architecture decisions with ADRs
 
-🇧🇷 [Versão em português](0001-registrar-decisoes-de-arquitetura.md)
+🇧🇷 [Versão em português](0001-record-architecture-decisions.pt-BR.md)
 
 - **Status:** Accepted
 - **Date:** 2026-10-14
@@ -33,7 +33,7 @@ versioned and close to the code.
 ## Decision
 
 > We chose **Markdown ADRs inside the repository**, using the template in
-> [`templates/adr-template.en.md`](../templates/adr-template.en.md).
+> [`templates/adr-template.md`](../templates/adr-template.md).
 
 It is the lowest-friction option (driver 1) and the only one that meets driver 2 with no
 extra effort: the ADR goes through the same review flow as the code. The template mixes
@@ -66,7 +66,7 @@ Nygard's lean structure (context, decision, consequences) with MADR's explicit f
 - Sequential 4-digit numbering: `NNNN-title-in-kebab-case.md`
 - An accepted ADR is immutable. Changed your mind? New ADR with status "Supersedes NNNN"
 - Typo and link fixes are allowed
-- The Portuguese file is the source; the `.en.md` file is its translation
+- The English file is the source; the `.pt-BR.md` file is its translation
 
 ## How to validate
 

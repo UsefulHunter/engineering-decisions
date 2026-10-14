@@ -1,7 +1,9 @@
 # RFCs
 
-Propostas técnicas completas, escritas a partir do [template](../templates/rfc-template.md).
+🇧🇷 [Leia em português](README.pt-BR.md)
 
-| # | Título | Status |
+Full technical proposals, written from the [template](../templates/rfc-template.md).
+
+| # | Title | Status |
 | --- | --- | --- |
-| 0001 | Migração de renderização (SSR ↔ SPA) em um cenário fictício | Planejado para as semanas 2–3 |
+| 0001 | Rendering migration (SSR ↔ SPA) in a fictitious scenario | Planned for weeks 2–3 |
