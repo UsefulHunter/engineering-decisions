@@ -1,44 +1,48 @@
 # engineering-decisions
 
-Registro público de decisões técnicas: templates de **ADR** (Architecture Decision Record) e **RFC** (Request for Comments), mais exemplos completos escritos a partir de cenários fictícios.
+🇧🇷 [Leia em português](README.pt-BR.md)
 
-O objetivo é praticar a escrita técnica de quem atua como Staff: explicar o contexto, comparar alternativas, assumir trade-offs e deixar um rastro que outra pessoa consiga entender meses depois.
+A public log of technical decisions: **ADR** (Architecture Decision Record) and **RFC** (Request for Comments) templates, plus complete examples written from fictitious scenarios.
 
-> Todos os cenários deste repositório são fictícios ou baseados em informações públicas. Nenhum código, dado ou detalhe de empregador ou cliente é usado aqui.
+The goal is to practice the kind of technical writing expected at Staff level: explain the context, compare alternatives, own the trade-offs and leave a trail that someone else can follow months later.
 
-## Estrutura
+> Every scenario in this repository is fictitious or based on public information. No code, data or details from any employer or client are used here.
 
-| Pasta | Conteúdo |
+## Structure
+
+| Folder | Contents |
 | --- | --- |
-| [`templates/`](templates/) | Templates de ADR e RFC prontos para copiar |
-| [`decisions/`](decisions/) | ADRs numerados (`NNNN-titulo-curto.md`) |
-| [`rfcs/`](rfcs/) | RFCs completos, com alternativas, riscos e plano de rollout |
-| [`notes/`](notes/) | Notas de estudo semanais que embasam as decisões |
+| [`templates/`](templates/) | Ready-to-copy ADR and RFC templates |
+| [`decisions/`](decisions/) | Numbered ADRs (`NNNN-short-title.md`) |
+| [`rfcs/`](rfcs/) | Full RFCs with alternatives, risks and rollout plan |
+| [`notes/`](notes/) | Weekly study notes behind the decisions (Portuguese only) |
+
+Documents are written in Portuguese first; English versions sit next to them with the `.en.md` suffix.
 
 ## ADR vs RFC
 
 | | ADR | RFC |
 | --- | --- | --- |
-| **Quando** | Uma decisão já tomada (ou prestes a ser) | Uma proposta que precisa de discussão antes |
-| **Tamanho** | 1 página | Várias páginas |
-| **Foco** | O quê foi decidido e por quê | Problema, alternativas, riscos, rollout |
-| **Ciclo de vida** | Imutável; é substituído por outro ADR | Evolui com comentários até ser aceito ou rejeitado |
+| **When** | A decision already made (or about to be) | A proposal that needs discussion first |
+| **Size** | 1 page | Several pages |
+| **Focus** | What was decided and why | Problem, alternatives, risks, rollout |
+| **Lifecycle** | Immutable; superseded by a new ADR | Evolves with comments until accepted or rejected |
 
-Um RFC aceito normalmente gera um ou mais ADRs.
+An accepted RFC usually produces one or more ADRs.
 
-## Índice
+## Index
 
 ### ADRs
 
-| # | Título | Status |
+| # | Title | Status |
 | --- | --- | --- |
-| [0001](decisions/0001-registrar-decisoes-de-arquitetura.md) | Registrar decisões de arquitetura com ADRs | Aceito |
+| [0001](decisions/0001-registrar-decisoes-de-arquitetura.en.md) | Record architecture decisions with ADRs | Accepted |
 
 ### RFCs
 
-_Em andamento (semanas 2–3)._
+_In progress (weeks 2–3)._
 
-## Referências
+## References
 
 - [Architecture Decision Records (adr.github.io)](https://adr.github.io/)
 - [Documenting Architecture Decisions, Michael Nygard](https://cognitect.com/blog/2011/11/15/documenting-architecture-decisions)

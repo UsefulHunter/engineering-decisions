@@ -1,5 +1,7 @@
 # 0001. Registrar decisões de arquitetura com ADRs
 
+🇺🇸 [English version](0001-registrar-decisoes-de-arquitetura.en.md)
+
 - **Status:** Aceito
 - **Data:** 2026-10-14
 - **Decisores:** Brian Icaro
